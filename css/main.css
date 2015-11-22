@@ -132,18 +132,27 @@ a:hover{
 }
 
 .item1:hover{
-  background-color: #252525;
+  background-color: #222;
   color: #ffbc13;
   border: 6px double #ffbc13;
   width: 60%;
 }
 
+.item1, a:hover{
+  color: #ffbc13;
+}
+
 .item2:hover{
-  background-color: #252525;
+  background-color: #222;
   color: #ffbc13;
   border: 6px double #ffbc13;
   width: 60%;
 }
+
+.item2, a:hover{
+  color: #ffbc13;
+}
+
 
 /* ==========================================================================
    Helper classes
