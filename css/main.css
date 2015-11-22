@@ -24,16 +24,6 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
 /*
  * A better looking default horizontal rule
  */
@@ -94,25 +84,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-* {
-  margin: 0 auto;
-  padding: 10px;
+*{
+  padding: 1px;
+  font-family: monospace;
+}
+h1{
+  font-size: 3em;
 }
 
+body{
+  background-color: #222;
+  flex-direction: column;
+  align-items: center;
+}
 
+a{
+  color: #222;
+  text-decoration: none;
+  font-size: 2em;
+}
 
+a:hover{
+  color: #ffbc13;
+}
 
+.header{
+  background-color: #ffbc13;
+  color: #222;
+  margin: 1.3em;
+  text-align: center;
+  margin: 10px;
+}
 
+.itemContainer{
+  align-items: center;
+  margin-left: 20%;
+}
 
+.item1, .item2{
+  align-items: center;
+  background-color: #ffbc13;
+  border: 6px double #222;
+  border-radius: 2px;
+  margin: 2em;
+  width: 60%;
+  text-align: center;
+}
 
+.item1:hover{
+  background-color: #252525;
+  color: #ffbc13;
+  border: 6px double #ffbc13;
+  width: 60%;
+}
 
-
-
-
-
-
-
-
+.item2:hover{
+  background-color: #252525;
+  color: #ffbc13;
+  border: 6px double #ffbc13;
+  width: 60%;
+}
 
 /* ==========================================================================
    Helper classes
@@ -223,9 +254,6 @@ textarea {
     }
 
     a,
-    a:visited {
-        text-decoration: underline;
-    }
 
     a[href]:after {
         content: " (" attr(href) ")";
