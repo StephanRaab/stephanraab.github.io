@@ -89,7 +89,9 @@ textarea {
   font-family: monospace;
 }
 h1{
-  font-size: 3em;
+  font-size: 4em;
+  padding: 0px;
+  margin: 0px;
 }
 
 body{
@@ -104,8 +106,6 @@ a{
   font-size: 2em;
 }
 
-
-
 .header{
   background-color: #ffbc13;
   color: #222;
@@ -115,8 +115,9 @@ a{
 }
 
 .itemContainer{
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-left: 26%;
 }
 
 .item1, .item2{
@@ -127,8 +128,8 @@ a{
   background-color: #ffbc13;
   border: 6px double #222;
   border-radius: 2px;
-  margin: 2em;
   width: 60%;
+  margin: .5em 0;
 }
 
 .item1:hover, .item2:hover{
