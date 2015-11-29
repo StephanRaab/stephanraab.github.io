@@ -104,9 +104,7 @@ a{
   font-size: 2em;
 }
 
-a:hover{
-  color: #ffbc13;
-}
+
 
 .header{
   background-color: #ffbc13;
@@ -122,35 +120,22 @@ a:hover{
 }
 
 .item1, .item2{
+  display: flex;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
   background-color: #ffbc13;
   border: 6px double #222;
   border-radius: 2px;
   margin: 2em;
   width: 60%;
-  text-align: center;
 }
 
-.item1:hover{
+.item1:hover, .item2:hover{
   background-color: #222;
   color: #ffbc13;
   border: 6px double #ffbc13;
-  width: 60%;
-}
-
-.item1, a:hover{
-  color: #ffbc13;
-}
-
-.item2:hover{
-  background-color: #222;
-  color: #ffbc13;
-  border: 6px double #ffbc13;
-  width: 60%;
-}
-
-.item2, a:hover{
-  color: #ffbc13;
+  cursor: pointer;
 }
 
 
