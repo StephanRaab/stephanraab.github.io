@@ -120,7 +120,7 @@ a{
   align-items: center;
 }
 
-.item1, .item2, .item3{
+.item{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -132,7 +132,7 @@ a{
   margin: .5em 0;
 }
 
-.item1:hover, .item2:hover{
+.item:hover{
   background-color: #222;
   color: #ffbc13;
   border: 6px double #ffbc13;
